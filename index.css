@@ -1,0 +1,230 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: black;
+}
+
+.background {
+    color : black;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1;
+    font-family:cursive;
+    color: rgb(239, 191, 149);
+}
+
+.below_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1;
+    color: black;
+}
+
+.center {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+
+}
+
+.nav-links ul li a{
+   /* background: #23074d; fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: linear-gradient(to right, #cc5333, #23074d);
+    text-decoration: none;
+    font-size: 40px;
+    font-family:cursive;
+}
+
+.nav-links ul li::after{
+
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #e4d7d6;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(152, 118, 95);
+    color: black;
+    width: 100%;
+
+}
+
+body.dream{
+
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+body.nav-links ul li:hover::after{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(150, 102, 217);
+    color: black;
+    width: 100%;
+
+}
+ body.nav-links ul li a{
+     color: aliceblue;
+     text-decoration: none;
+     font-size: 40px;
+     font-family:cursive;
+ }
+
+.bmwm3{
+    display: flex;
+    margin:auto;
+    text-align: center;
+    width: 80%;
+}
+.g80_image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+  }
+  
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+.g80 h1{
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.dream_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1;
+    font-family:cursive;
+    color: rgb(239, 191, 149);
+}
+
+.bmwm3_dream{
+    display: flex;
+    margin:auto;
+    text-align: center;
+    width: 80%;
+}
+
+.g80_image_dream{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+
+.g80_dream{
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+.nissangtr_dream{
+    display: contents;
+    align-items: center;
+    margin:auto;
+    text-align: center;
+    width: 80%;
+}
+
+.gtr_dream_image{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+
+.gtr_dream{
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.gtr_dream h1{
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+
+
+.gt3_dream{
+    display:flex;
+    align-items:center;
+    margin:auto;
+    text-align: center;
+    width: 80%
+
+}
+
+.pgt3_dream{
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+.gt3_dream_image{
+    margin: auto;
+    display:flex;
+    align-items:right;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+
+}
+
+.gt3_dream h1{
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+
+}
